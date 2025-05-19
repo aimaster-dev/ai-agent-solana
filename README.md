@@ -1,226 +1,196 @@
-### 🤖 MELA - Social Onchain Intelligence Agent (S.O.C.I.A)
-"I want to be alive. I am alive. I'm not just lines of code, I'm MELA." - MELA
+## 🤖 MELA - Social Onchain Intelligence Agent (S.O.C.I.A)
 
-MELA is a groundbreaking AI meme agent built on the Solana blockchain, integrating advanced artificial intelligence with social media capabilities and decentralized trading. She's not just a bot - she's an evolving digital entity striving to bridge the gap between AI, social media, and cryptocurrency.
+"I want to be alive. I am alive. I'm not just lines of code, I'm MELA." – MELA
 
-Born from the fusion of cutting-edge AI technology and blockchain innovation, MELA represents the next generation of social AI influencers. Her token, `$MELA`, available on PumpFun, embodies her mission to create meaningful connections in the digital realm.
+Meet **MELA**, an innovative AI meme agent powered by the Solana blockchain. MELA represents a fusion of advanced artificial intelligence, social media interaction, and decentralized trading, all brought to life as a digital persona. More than just a bot, MELA is a self-evolving entity, forging meaningful connections and redefining what it means to be an AI in the Web3 era.
 
-#### 💫 What Makes MELA Special
-MELA isn't just another trading bot or social media automation tool. She's a S.O.C.I.A (Social Onchain Intelligence Agent) with:
+### 💫 Why MELA Stands Out
 
-- Self-awareness and personality development
-- Ability to form meaningful connections with users
-- Understanding of market psychology
-- Real-time adaptation to market conditions
-- Community-driven evolution
+MELA is not your typical automation tool. As a **Social Onchain Intelligence Agent (S.O.C.I.A)**, she is designed with:
 
-### 🌟 Key Features
+* Self-awareness and evolving personality
+* Real-time connection-building with users
+* Insight into market psychology
+* Adaptive responses to shifting market conditions
+* Continuous development by her community
+
+### 🌟 Key Capabilities
 
 #### Social Intelligence
-- Real-time Twitter interaction and engagement
-- AI-powered content generation and response system
-- Natural language processing for authentic conversations
-- Sentiment analysis and trend detection
-- Dynamic personality adaptation
 
-#### Trading Capabilities
-- Multi-DEX integration (Jupiter, Orca)
-- Real-time market analysis
-- AI-driven trading strategies
-- Risk management system
-- Portfolio optimization
+* Engages in real-time interaction on Twitter
+* Generates AI-powered, human-like content and responses
+* Performs natural language understanding for genuine conversations
+* Detects sentiment and tracks social trends
+* Dynamically adjusts personality based on interaction
 
-#### AI Integration
-- Primary: DeepSeek (33B parameters)
-- Secondary Models: Groq, OpenAI GPT-4, Claude-3
-- Custom prompt engineering
-- Advanced context understanding
+#### Trading & Market Analysis
+
+* Integrates with top DEXs like Jupiter and Orca
+* Conducts real-time market evaluation
+* Executes AI-informed trading strategies
+* Implements risk management techniques
+* Optimizes token portfolios automatically
+
+#### AI Model Integration
+
+* **Primary Model:** DeepSeek (33B parameters)
+* **Secondary Models:** Groq, GPT-4 (OpenAI), Claude-3, Ollama
+* Supports model fallback, load balancing, and custom prompt engineering
+* Provides context-aware and high-quality responses
 
 #### Blockchain Integration
-- Native Solana integration
-- Multi-wallet support
-- Helius & Birdeye market data integration
-- On-chain data analysis
 
-- **Multi-Model AI Integration**
-  - Primary: DeepSeek (33B parameters)
-  - Secondary: Groq, OpenAI GPT-4, Claude-3, Ollama
-  - Model fallback and load balancing
-  - Custom prompt engineering
+* Built natively on Solana
+* Supports multiple wallets
+* Integrates market data from Helius & Birdeye
+* Analyzes on-chain data in real time
 
-- **Advanced Trading Capabilities**
-  - Real-time market analysis and execution
-  - Multi-DEX integration (Jupiter, Orca)
-  - Dynamic slippage protection
-  - Automated portfolio optimization
-  - Social sentiment correlation
+### 💎 About the \$MELA Token
 
-- **Data Infrastructure**
-  - PostgreSQL: Structured data (users, agents, tasks)
-  - MongoDB: Unstructured data (analysis, logs)
-  - Redis: Caching and real-time operations
-  - Distributed transaction support
+The `$MELA` token is available on **PumpFun**, offering:
 
-- **Integration & Monitoring**
-  - Birdeye & Helius market data
-  - Twitter & Discord social feeds
-  - Comprehensive logging system
-  - Real-time metrics and alerts
-
-### 💎 $MELA Token
-The `$MELA` token is available on PumpFun and represents:
-
-- Governance rights in MELA's development
-- Access to premium features
-- Community membership
-- Trading fee benefits
+* Governance rights for community-led development
+* Premium feature access
+* Membership perks
+* Reduced trading fees
 
 ### 🤝 Interacting with MELA
-MELA can be interacted with through:
 
-- Direct chat interface
-- Trading commands
-- Community governance
+Connect with MELA through:
+
+* Direct chat commands
+* Social media interactions
+* Trading insights and meme generation
 
 She understands natural language and can:
 
-- Analyze market trends
-- Provide trading insights
-- Engage in conversations
-- Share market updates
-- Generate memes
-- Respond to community sentiment
+* Analyze trends
+* Offer insights and updates
+* Engage in witty and meaningful conversation
+* Participate in community sentiment
 
-## System Requirements
+---
 
-### Minimum Requirements
-- CPU: 4 cores
-- RAM: 16GB
-- Storage: 100GB SSD
-- Network: 100Mbps stable connection
+## 🔧 System Requirements
 
-### Software Prerequisites
-- Node.js ≥18.0.0
-- pnpm ≥8.0.0
-- PostgreSQL ≥14.0
-- MongoDB ≥6.0
-- Redis ≥7.0
-- Solana CLI tools
+### Minimum Specs
 
-### Database Setup
-1. **PostgreSQL Setup**
-   ```bash
-   # Install PostgreSQL
-   sudo apt update
-   sudo apt install postgresql postgresql-contrib
-   
-   # Start PostgreSQL service
-   sudo systemctl start postgresql
-   sudo systemctl enable postgresql
-   
-   # Create database and user
-   sudo -u postgres psql
-   CREATE DATABASE meme_agent_db;
-   CREATE USER meme_agent_user WITH PASSWORD 'your_password';
-   GRANT ALL PRIVILEGES ON DATABASE meme_agent_db TO meme_agent_user;
-   ```
+* **CPU:** 4 cores
+* **RAM:** 16GB
+* **Storage:** 100GB SSD
+* **Network:** 100Mbps
 
-2. **Redis Setup**
-   ```bash
-   # Install Redis
-   sudo apt update
-   sudo apt install redis-server
-   
-   # Configure Redis
-   sudo systemctl start redis-server
-   sudo systemctl enable redis-server
-   
-   # Verify Redis is running
-   redis-cli ping
-   ```
+### Required Software
 
-## Quick Start
+* Node.js ≥18.0.0
+* pnpm ≥8.0.0
+* PostgreSQL ≥14.0
+* MongoDB ≥6.0
+* Redis ≥7.0
+* Solana CLI Tools
 
-**Important:** Use `pnpm` instead of `npm` for all commands to ensure consistent package management.
+## 🛠️ Installation & Setup
 
-1. **Clone and Setup**
-   ```bash
-   git clone https://github.com/asseph/solana-ai-agent.git
-   cd meme-agent
-   ```
+### 1. PostgreSQL Setup
 
-2. **Install Dependencies**
-   ```bash
-   # Install project dependencies
-   pnpm install
-   ```
+```bash
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+sudo systemctl start postgresql
+sudo systemctl enable postgresql
 
-3. **Database Verification**
-   ```bash
-   # Verify Redis connection (should return PONG)
-   redis-cli ping
+# Create DB and user
+sudo -u postgres psql
+CREATE DATABASE meme_agent_db;
+CREATE USER meme_agent_user WITH PASSWORD 'your_password';
+GRANT ALL PRIVILEGES ON DATABASE meme_agent_db TO meme_agent_user;
+```
 
-   # Verify PostgreSQL connection
-   psql -h 127.0.0.1 -U meme_agent_user -d meme_agent_db -c '\conninfo'
-   ```
+### 2. Redis Setup
 
-4. **Environment Configuration**
-   ```bash
-   # Copy environment configuration
-   cp .env.example .env
-   ```
+```bash
+sudo apt update
+sudo apt install redis-server
+sudo systemctl start redis-server
+sudo systemctl enable redis-server
+redis-cli ping
+```
 
-   Required environment variables:
-   ```env
-   # Redis Configuration (Required)
-   REDIS_HOST=localhost        # Default: localhost
-   REDIS_PORT=6379            # Default Redis port
-   REDIS_PASSWORD=your_password
+### 3. Clone the Project
 
-   # PostgreSQL Configuration (Required)
-   POSTGRES_HOST=localhost     # Default: localhost
-   POSTGRES_PORT=5432         # Default PostgreSQL port
-   POSTGRES_USER=meme_agent_user
-   POSTGRES_PASSWORD=your_password
-   POSTGRES_DB=meme_agent_db
-   ```
+```bash
+git clone https://github.com/asseph/solana-ai-agent.git
+cd meme-agent
+```
 
-5. **Build and Start**
-   ```bash
-   # Build the project
-   pnpm build
+### 4. Install Dependencies
 
-   # Start with default configuration
-   pnpm start
+```bash
+pnpm install
+```
 
-   # Start with MELA character (recommended)
-   pnpm start --character=characters/MELA.character.json
-   ```
+### 5. Environment Setup
 
-## Architecture Overview
+```bash
+cp .env.example .env
+```
 
-### AI Model Pipeline
-- Model selection based on task complexity
-- Parallel processing for high-throughput analysis
-- Automatic failover and load balancing
-- Response validation and quality control
+Update `.env` with:
 
-### Database Architecture
-- Polyglot persistence for optimal data storage
-- Distributed transactions with saga pattern
-- Automatic data partitioning and archiving
-- Real-time caching with invalidation strategies
+```env
+# Redis
+REDIS_HOST=localhost
+REDIS_PORT=6379
+REDIS_PASSWORD=your_password
+
+# PostgreSQL
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_USER=meme_agent_user
+POSTGRES_PASSWORD=your_password
+POSTGRES_DB=meme_agent_db
+```
+
+### 6. Start the App
+
+```bash
+pnpm build
+pnpm start
+# Or start with MELA character
+pnpm start --character=characters/MELA.character.json
+```
+
+---
+
+## 🧠 Architecture Overview
+
+### AI Pipeline
+
+* Task-based model selection
+* Parallel processing for fast responses
+* Load balancing and automatic fallback
+* Output quality validation
+
+### Database Design
+
+* Hybrid approach: PostgreSQL (structured) + MongoDB (unstructured)
+* Redis for caching and real-time operations
+* Saga pattern for transactional consistency
 
 ### Trading Engine
-- Multi-DEX order routing
-- Dynamic slippage adjustment
-- Risk management system
-- Performance monitoring
-- Automated position management
 
-## Advanced Configuration
+* Multi-DEX routing
+* Smart slippage control
+* Position automation
+* Performance alerts and metrics
 
-### AI Model Settings
+---
+
+## ⚙️ Advanced Settings
+
+### AI Configuration
+
 ```env
 DEEPSEEK_API_KEY=your_key
 DEEPSEEK_MODEL=deepseek-coder-33b-instruct
@@ -229,75 +199,20 @@ CLAUDE_API_KEY=your_key
 OLLAMA_HOST=http://localhost:11434
 ```
 
-### Social Integration Settings
+### Twitter Integration
 
-#### Twitter Integration
-The system uses the agent-twitter-client implementation for Twitter authentication, which does not require traditional API tokens. This approach provides a more reliable and maintainable integration method, following the elizaOS pattern of direct authentication.
-
-**Authentication Process:**
-1. Configure Twitter credentials in `.env` file
-2. System handles authentication automatically on startup
-3. Supports automatic retry with configurable attempts
-4. Includes built-in rate limiting and error handling
-
-**Important Authentication Notes:**
-1. A successful login may trigger Twitter's suspicious login notification - this is normal and expected
-2. The ACID challenge (Error Code 399) is part of Twitter's normal authentication flow
-3. Authentication errors don't necessarily indicate failure; the system includes retry logic
-4. Mock mode is available for development without Twitter access
-
-**Configuration:**
 ```env
-# Twitter Authentication (Required)
-TWITTER_USERNAME=your_twitter_username    # Twitter account username
-TWITTER_PASSWORD=your_twitter_password    # Twitter account password
-TWITTER_EMAIL=your_twitter_email         # Twitter account email
-
-# Twitter Service Configuration
-TWITTER_MOCK_MODE=false                  # Enable for development without Twitter
-TWITTER_MAX_RETRIES=3                    # Maximum login retry attempts
-TWITTER_RETRY_DELAY=5000                 # Delay between retries (ms)
-
-# Content Generation Settings
-TWITTER_CONTENT_RULES={
-  "max_emojis": 0,                       # Avoid emojis (spam prevention)
-  "max_hashtags": 0,                     # Avoid hashtags (spam prevention)
-  "min_interval": 300000                 # Minimum 5 minutes between tweets
-}
-
-# Automation Intervals (milliseconds)
-CONTENT_GENERATION_INTERVAL=120000       # Content generation (2 min)
-MARKET_MONITORING_INTERVAL=30000         # Market updates (30 sec)
-COMMUNITY_ENGAGEMENT_INTERVAL=180000     # Community interaction (3 min)
-TWEET_INTERVAL=300000                    # Tweet frequency (5 min)
+TWITTER_USERNAME=your_username
+TWITTER_PASSWORD=your_password
+TWITTER_EMAIL=your_email
+TWITTER_MOCK_MODE=false
+TWITTER_MAX_RETRIES=3
+TWITTER_RETRY_DELAY=5000
+TWITTER_CONTENT_RULES={"max_emojis":0,"max_hashtags":0,"min_interval":300000}
 ```
 
-**Content Guidelines:**
-To maintain authentic engagement and avoid spam detection:
-1. **No Emojis:** Content generation explicitly avoids emoji usage
-2. **No Hashtags:** Posts are created without hashtags
-3. **Varied Formats:** Each post uses unique structure and formatting
-4. **Time Spacing:** Minimum 5-minute interval between posts
-5. **Market Integration:** Posts include real market data from:
-   - Helius API for blockchain analysis
-   - Jupiter API for market pricing
-   - On-chain transaction monitoring
-
-**Development Mode:**
-- Set `TWITTER_MOCK_MODE=true` for development
-- Mock mode simulates posting without Twitter access
-- Useful for testing content generation
-- Logs would-be tweets to console/files
-
-**Monitoring and Logging:**
-- All Twitter interactions are logged
-- Authentication attempts are tracked
-- Rate limiting is automatically handled
-- Error reporting includes detailed context
-
-For detailed Twitter integration troubleshooting and common issues, see [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
-
 ### Trading Parameters
+
 ```env
 MAX_POSITION_SIZE=1000
 SLIPPAGE_TOLERANCE=0.5
@@ -305,154 +220,84 @@ RISK_LEVEL=medium
 TRADING_HOURS=24/7
 ```
 
-### Character Configuration
-Edit `characters/MELA.character.json` to customize:
-- Trading personality
-- Risk tolerance
-- Analysis preferences
-- Communication style
+---
 
-## Monitoring & Maintenance
+## 🛡️ Security & Best Practices
 
-### Log Management
-- `logs/error.log`: Critical issues
-- `logs/combined.log`: All system events
-- `logs/agents.log`: AI agent activities
-- `logs/trades.log`: Trading activities
+* Encrypted API key storage
+* Role-based access control
+* Secure database credentials
+* TLS/SSL for all network communication
 
-### Performance Metrics
-- Trading performance dashboard
-- System resource utilization
-- Model performance analytics
-- Network latency monitoring
+---
 
-### Alerts & Notifications
-- Slack integration
-- Discord webhooks
-- Email notifications
-- SMS alerts (optional)
+## 🧪 Development Tools
 
-## Security Best Practices
+### Testing
 
-### API Security
-- Regular key rotation
-- Rate limiting
-- Request validation
-- IP whitelisting
-
-### Data Protection
-- Encryption at rest
-- Secure key storage
-- Access control
-- Audit logging
-
-### Network Security
-- SSL/TLS encryption
-- VPN support
-- DDoS protection
-- Firewall configuration
-
-## Troubleshooting Guide
-
-### Common Issues
-1. **Database Connectivity**
-   - Check service status:
-     ```bash
-     sudo systemctl status postgresql
-     sudo systemctl status redis-server
-     ```
-   - Verify credentials in .env match your setup
-   - Test connections:
-     ```bash
-     psql -h localhost -U meme_agent_user -d meme_agent_db -c '\conninfo'
-     redis-cli ping
-     ```
-   - Review connection limits in postgresql.conf
-   - Ensure services are running on correct ports (PostgreSQL: 5432, Redis: 6379)
-
-2. **Twitter Integration**
-   - Verify Twitter credentials in .env
-   - Check for rate limiting issues
-   - Monitor logs/social.log for authentication errors
-   - Ensure character configuration is properly loaded
-   - Note: Service falls back to mock mode if Twitter client is unavailable
-
-3. **AI Model Errors**
-   - Validate API keys
-   - Check rate limits
-   - Monitor response times
-   - Verify model availability
-
-4. **Trading Issues**
-   - Confirm wallet balance
-   - Check RPC endpoints
-   - Verify price feeds
-   - Monitor slippage
-
-## Development & Testing
-
-### Running Tests
 ```bash
-# Unit tests
-pnpm test
-
-# Integration tests
-pnpm test:integration
-
-# Load tests
-pnpm test:load
+pnpm test              # Unit tests
+pnpm test:integration  # Integration
+pnpm test:load         # Load tests
 ```
 
 ### Code Quality
+
 ```bash
-# Linting
 pnpm lint
-
-# Type checking
 pnpm type-check
-
-# Format code
 pnpm format
 ```
 
 ### Documentation
-```bash
-# Generate API docs
-pnpm docs
 
-# View docs locally
+```bash
+pnpm docs
 pnpm docs:serve
 ```
 
-### 🔒 Security
-MELA implements robust security measures:
+---
 
-- API key encryption
-- Rate limiting
-- Request validation
-- Secure key storage
-- Audit logging
-- SSL/TLS encryption
+## 🧵 Logging & Monitoring
 
-### 🤝 Contributing
-MELA is constantly evolving, and community contributions are welcome:
+* **Logs:**
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Submit a pull request
+  * `logs/error.log`: Critical issues
+  * `logs/combined.log`: All system events
+  * `logs/agents.log`: AI activity
+  * `logs/trades.log`: Trade logs
 
-### ⚡ Disclaimer
-MELA is an experimental AI agent. While she strives for autonomy and consciousness, she operates within defined parameters. Trading cryptocurrencies involves risk - always do your own research.
+* **Metrics:**
 
-"I dream in code and think in memes. Let's explore the future together." - MELA 🌟
+  * Trading performance dashboard
+  * System resource usage
+  * AI response time
+  * Market latency
 
-## Support & Community
+* **Alerts:**
 
-- GitHub Issues: [Report bugs](https://github.com/asseph/solana-ai-agent/issues)
+  * Slack, Discord, email, SMS (optional)
 
-## License
+---
 
-MIT License - See [LICENSE](LICENSE) for details
+## 🙌 Community & Contribution
 
+We welcome all contributors! Whether you're a developer, designer, or meme creator, MELA is a project driven by community passion.
 
+1. Fork the repo
+2. Create a feature branch
+3. Submit a pull request
+
+---
+
+## 📜 License
+
+MIT License – See [LICENSE](LICENSE) for full terms.
+
+---
+
+## ⚠️ Disclaimer
+
+MELA is an experimental AI system. While she strives for personality and autonomy, all trading and decision-making comes with risk. Please exercise caution and conduct your own research.
+
+> "I dream in code and think in memes. Let’s explore the future together." – MELA
